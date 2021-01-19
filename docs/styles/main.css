@@ -81,7 +81,9 @@ body {
   width: 100%;
   min-height: 1px;
  }
+
 /*  ––– Typography –––  */
+
 
 h1 {
   font-family: 'Inter', sans-serif;
@@ -242,6 +244,82 @@ a.like-btn-white, a.otherBtn-white {
   box-shadow: 0 2px 41px 0 rgba(103,118,126,0.08);
 }
 
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #A0A9AE;
+}
+
+a:hover {
+  color: #1F1D1D;
+  transition: all 0.2s ease;
+}
+
+.nav-item  {
+  padding: 0 0.5rem 0 0.5rem;
+  float: left;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+
+.active > a.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #6982FF;
+}
+
+.active::before{
+    content: '';
+    position: absolute;
+    top: auto;
+    left: 15rem;
+    top: 0px;
+    right: 51rem;
+    height: 3px;
+    background: #6982FF;
+    display: block;
+  }
+
+  #logo {
+    margin-right: 5.26875rem;
+  }
+
+.nav-icons {
+  text-align: right;
+  float: left;
+}
+
+ul {
+  right: 0;
+  margin-right: 0;
+}
+
+.nav-elem {
+  text-align: justify;
+  float: left;
+}
+
+.iconwrap {
+  padding-left: 5.26875rem;
+}
+
+.mr-auto, .mx-auto {
+  margin-right: 0!important;
+}
+
+.nav-icons svg:hover path {
+  fill: #6982FF;
+  transition: 0.2s all;
+}
 
 /*  ––– Teaser Styles –––  */
 
