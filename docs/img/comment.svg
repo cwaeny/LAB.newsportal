@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.403922 0 0 0 0 0.462745 0 0 0 0 0.494118 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Front" transform="translate(-239.000000, -1176.000000)">
+            <g id="comment-alt-lines-light" transform="translate(167.000000, 1171.000000)" filter="url(#filter-1)">
+                <g transform="translate(72.250000, 5.000000)">
+                    <path d="M14,0 L2,0 C0.896875,0 0,0.896875 0,2 L0,11 C0,12.103125 0.896875,13 2,13 L5,13 L5,15.625 C5,15.846875 5.18125,16 5.375,16 C5.45,16 5.528125,15.978125 5.596875,15.925 L9.5,13 L14,13 C15.103125,13 16,12.103125 16,11 L16,2 C16,0.896875 15.103125,0 14,0 Z M15,11 C15,11.55 14.55,12 14,12 L9.165625,12 L8.9,12.2 L6,14.375 L6,12 L2,12 C1.45,12 1,11.55 1,11 L1,2 C1,1.45 1.45,1 2,1 L14,1 C14.55,1 15,1.45 15,2 L15,11 Z M8.75,7.5 L4.25,7.5 C4.1125,7.5 4,7.6125 4,7.75 L4,8.25 C4,8.3875 4.1125,8.5 4.25,8.5 L8.75,8.5 C8.8875,8.5 9,8.3875 9,8.25 L9,7.75 C9,7.6125 8.8875,7.5 8.75,7.5 Z M11.75,4.5 L4.25,4.5 C4.1125,4.5 4,4.6125 4,4.75 L4,5.25 C4,5.3875 4.1125,5.5 4.25,5.5 L11.75,5.5 C11.8875,5.5 12,5.3875 12,5.25 L12,4.75 C12,4.6125 11.8875,4.5 11.75,4.5 Z" id="Shape" fill="#67767E" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
