@@ -359,6 +359,33 @@ ul {
 
 /*  ––– Teaser Styles –––  */
 
+.icons-white > .like {
+  color: white;
+  transition: 0.2s ease;
+}
+
+.icons-white > .like:hover  {
+  color: #e8e8e8;
+}
+
+.icons-white > .like > span {
+  color: white;
+  transition: 0.2s ease;
+}
+
+.icons-white > .like > span:hover  {
+  color: #e8e8e8;
+}
+
+.icons-white > a {
+  color: white;
+  transition: 0.2s ease;
+}
+
+.icons-white > a:hover {
+  color: #e8e8e8;
+}
+
 i {
   font-style: normal;
 }
@@ -368,6 +395,11 @@ i {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   color: #67767E;
+  transition: 0.2s ease;
+}
+
+.like > span:hover {
+  color: #1F1D1D;
 }
 
 .like {
@@ -376,13 +408,29 @@ i {
   font-weight: 400;
   color: #67767E;
   display: inline-block;
+  transition: 0.2s ease;
+}
+
+.like:hover {
+  color: #1f1d1d;
+  display: inline-block;
 }
 
 .liked {
   color: #ea5666;
+  transition: 0.2s ease;
 }
 
 .liked > span {
+  color: #ea5666;
+  transition: 0.2s ease;
+}
+
+.liked:hover {
+  color: #ea5666;
+}
+
+.liked > span:hover {
   color: #ea5666;
 }
 
@@ -542,8 +590,7 @@ i {
 }
 
 .icons-white {
-  margin-top: 2.5rem;
-  margin-bottom: 0.7rem;
+  margin-top: 3.5rem;
 }
 
 .arrow {
