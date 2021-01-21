@@ -365,7 +365,23 @@ ul {
 }
 
 .iconwrap {
-  padding-left: 1.3rem;
+  position: absolute;
+  right: 8%;
+  top: 15%;
+}
+
+@media (min-width: 768px){
+.iconwrap {
+  position: absolute;
+  right: 6%;
+}
+}
+
+@media (min-width: 992px){
+.iconwrap {
+  position: absolute;
+  right: 5%;
+}
 }
 
 .mr-auto, .mx-auto {
@@ -417,6 +433,22 @@ min-height: 100vh;
     display: none;
     visibility: hidden;
   }
+}
+
+@media (min-width: 992px){
+.d-lg-block {
+    display: inline-block!important;
+}
+}
+
+img.adfix {
+  width: 930px;
+}
+
+@media (min-width: 992px){
+img.adfix {
+  width: 930px;
+}
 }
 
 
