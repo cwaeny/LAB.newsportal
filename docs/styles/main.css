@@ -359,6 +359,33 @@ ul {
 
 /*  ––– Teaser Styles –––  */
 
+i {
+  font-style: normal;
+}
+
+.like > span {
+  font-size: 1.05rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #67767E;
+}
+
+.like {
+  font-size: 1.05rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #67767E;
+  display: inline-block;
+}
+
+.liked {
+  color: #ea5666;
+}
+
+.liked > span {
+  color: #ea5666;
+}
+
 .big-teaser {
   margin-top: 1rem;
 }
@@ -484,25 +511,6 @@ ul {
 }
 }
 
-a.like-btn, a.otherBtn {
-  font-size: 1.15rem;
-}
-
-@media (min-width: 992px){
-a.like-btn, a.otherBtn  {
-  font-size: 1.05rem;
-}
-}
-
-a.like-btn-white, a.otherBtn-white {
-  font-size: 1.15rem;
-}
-
-@media (min-width: 992px){
-a.like-btn-white, a.otherBtn-white {
-  font-size: 1.05rem;
-}
-}
 
 .otherBtn-xl {
   margin-left: 1.5rem;
