@@ -82,20 +82,6 @@ body {
   min-height: 1px;
  }
 
- @media (max-width: 1200px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none;
-    }
-}
 
 .navbar-toggler {
   padding: 0;
@@ -254,6 +240,10 @@ a.like-btn-white, a.otherBtn-white {
   color: #FFF;
 }
 
+a.otherBtn {
+  font-size: 1.05rem;
+}
+
  .adwrap p {
    font-family: 'Inter', sans-serif;
    font-weight: 400;
@@ -356,6 +346,38 @@ ul {
   fill: #1F1D1D;
   transition: 0.2s all;
 }
+
+.navbar-icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar-icons > .nav-icons > a.nav-link {
+  padding: 0;
+}
+/*  ––– WERBUNG –––  */
+
+.banner3-sm {
+  display: inline-block;
+  visibility: visible;
+}
+.banner1-xl {
+  display: none;
+  visibility: hidden;
+}
+
+@media (min-width: 768) and (min-width: 992) {
+  .banner1-xl {
+    display: inline-block;
+    visibility: visible;
+  }
+  .banner3-sm {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 
 /*  ––– Teaser Styles –––  */
 
