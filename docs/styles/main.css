@@ -271,11 +271,24 @@ a.otherBtn {
   padding-right: 0;
 }
 
+a.rubrik-link {
+  font-size: 1rem;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #A0A9AE;
+}
+
+@media (min-width: 992px){
 a {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: #A0A9AE;
+}
 }
 
 a:hover {
@@ -284,8 +297,14 @@ a:hover {
 }
 
 .nav-item  {
-  padding: 0 0.7rem 0 0.7rem;
-  float: left;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+@media (min-width: 992px){
+  .nav-item  {
+    padding: 0 0.7rem 0 0.7rem;
+    float: left;
+  }
 }
 
 .np {
@@ -299,8 +318,19 @@ a:hover {
 .active > a.nav-link {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
+  font-size: 2rem;
+  color: #ea5666;
+  margin-top: 2rem;
+}
+
+@media (min-width: 992px){
+.active > a.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   font-size: 1rem;
   color: #ea5666;
+  margin-top:0;
+}
 }
 
 .active::before{
@@ -335,7 +365,7 @@ ul {
 }
 
 .iconwrap {
-  padding-left: 3.05rem;
+  padding-left: 1.3rem;
 }
 
 .mr-auto, .mx-auto {
@@ -355,6 +385,16 @@ ul {
 
 .navbar-icons > .nav-icons > a.nav-link {
   padding: 0;
+}
+
+.navbar-nav{
+min-height: 100vh;
+}
+
+@media (min-width: 992px){
+  .navbar-nav{
+  min-height:inherit;
+  }
 }
 
 /*  ––– WERBUNG –––  */
