@@ -481,6 +481,28 @@ img.adfix {
 
 /*  ––– Teaser Styles –––  */
 
+.totop {
+  text-align: center;
+  padding-top: 3vh;
+}
+
+.totop-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ea5666;
+  text-align: center;
+}
+
+.totop-link:hover {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ea5666;
+  text-align: center;
+  text-decoration: none;
+}
+
 .kolbord {
   border-bottom: 5px solid #4AC5B6;
 }
@@ -763,20 +785,17 @@ i {
  /*  ––– FOOTER Styles –––  */
 
  #footer {
-   margin-top: 4vh;
+   margin-top: 3vh;
  }
 
  @media (min-width: 992px){
    #footer {
-     margin-top: 10vh;
+     margin-top: 3vh;
    }
  }
 
  .footer-wrap {
    background: #1F1D1D;
-   padding-top: 2.25rem;
-   padding-right: 1.4375rem;
-   padding-left: 1.4375rem;
  }
 
 @media (min-width: 992px){
@@ -804,13 +823,21 @@ i {
     cursor: pointer;
   }
 
+  a.footermenu, .footercopy {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #F3F4F5;
+  }
+
+@media (min-width: 992px){
  a.footermenu, .footercopy {
    font-family: 'Inter', sans-serif;
    font-weight: 400;
    font-size: 0.75rem;
    color: #F3F4F5;
-
  }
+}
 
   a.footermenu:hover {
     color: #ea5666;
@@ -822,12 +849,14 @@ i {
   .rightfoot {
     text-align: left;
     color: white;
+    margin-top: 0.75rem;
   }
 
 @media (min-width: 992px){
  .rightfoot {
    text-align: right;
    color: white;
+   margin-top: 0;
  }
 }
 
@@ -849,7 +878,6 @@ i {
 }
 
 .socialmedia {
-  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -857,6 +885,10 @@ i {
 .socialmedia {
   margin-top: 0.8rem;
 }
+}
+
+.nm {
+  margin-left: 0!important;
 }
 
 .sm-icon {
